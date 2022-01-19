@@ -17,15 +17,7 @@ from sklearn.cluster import DBSCAN
 from sklearn.metrics import mean_squared_error
 
 
-# #testing
-# np.random.seed(12) # to reproduce paper results
-# base = 128 # controls the length of the simulation
-#
-# # signal parameters
-# duration = (base - 20)
-#
-#
-# # simulate
+
 def get_area(points):
     #function that calculates the are of a triangle
     x = points[:, 0]
